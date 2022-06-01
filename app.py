@@ -35,7 +35,7 @@ def why():
 
 @app.route('/testimonial')
 def testimonials():
-    return render_template('testimonial.html')
+    return render_template('team.html')
 
 @app.route('/start')
 def start():
