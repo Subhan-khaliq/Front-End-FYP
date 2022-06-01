@@ -54,7 +54,6 @@ def Shoulder_press_video():
     return render_template('shoulder_press.html')
 
 # Bicep_Curl
-@app.route('/bisecp')
 def gen_frames():  
     cap = cv2.VideoCapture(0)
     while True:
@@ -73,7 +72,6 @@ def bicep_video():
     return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 # Shoulder Press
-@app.route('/shoulder')
 def gen_frames1():
     cap = cv2.VideoCapture(0)
     while True:
@@ -91,9 +89,6 @@ def gen_frames1():
 def shoulder_press_video():
     return Response(gen_frames1(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
-@app.route('/shoulder_press_message')
-def shoulder_press_message(x):
-    return random.randint(0,50)
 
 if __name__ == "__main__":
     app.run(debug = True)

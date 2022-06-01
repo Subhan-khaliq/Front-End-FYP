@@ -983,4 +983,37 @@ a:focus {
 {
     padding: 7% 15%;
 }
+.cards {
+  
+    width: 60%;
+  }
 
+/* @media (max-width: 776px)
+{
+  .cards 
+{
+  max-width: 100rem;
+  width: 80%; 
+  top: 5%;
+  padding-left: 3%;
+  padding-right: 6%;
+}
+} */
+.video_beauti
+{
+  position:absolute;
+  left: 2%;
+  margin-top: 2%;
+}
+.shoulder_p
+{
+  margin-top: 2%;
+  padding-bottom: 2%;
+}
+.margin_boxes
+{
+  text-align: center;
+}
+.inline-form {
+  display: inline;
+}
