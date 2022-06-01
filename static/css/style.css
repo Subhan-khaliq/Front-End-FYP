@@ -1016,4 +1016,25 @@ a:focus {
 }
 .inline-form {
   display: inline;
+  margin-bottom: 30%;
 }
+.btns1
+{
+  margin-right: 6%;
+ 
+ 
+}
+.btns2
+{
+  margin-right: 20%;
+ 
+}
+.start_page
+{
+  padding-bottom: 16%;
+}
+.start_problems
+{
+  margin-top: 10%;
+}
+form{ display: inline-block; }
